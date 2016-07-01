@@ -1,0 +1,6 @@
+libhgraphSimulation3Initialize
+libhgraphSimulation3InitializeWithHandlers
+libhgraphSimulation3Terminate
+libhgraphSimulation3PrintStackTrace
+libhgraphSimulation3GetMcrID
+mlxHgraphSimulation3

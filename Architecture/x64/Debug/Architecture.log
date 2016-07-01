@@ -1,0 +1,57 @@
+﻿生成启动时间为 2016/3/7 10:50:53。
+     1>项目“D:\研究生项目\无线传感网络项目组\超图建立与划分代码\Architecture\Architecture\Architecture.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Debug\Architecture.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         f:\VS2010\install\VC\bin\x86_amd64\CL.exe /c /IF:\matlab2010a\install\extern\include /IF:\matlab2010a\install\extern\include\win64 /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt TestCase.cpp WSNnode.cpp
+         WSNnode.cpp
+     1>WSNnode.cpp(8): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>WSNnode.cpp(39): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         TestCase.cpp
+     1>TestCase.cpp(564): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TestCase.cpp(565): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TestCase.cpp(612): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>TestCase.cpp(622): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TestCase.cpp(623): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TestCase.cpp(1756): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>TestCase.cpp(1779): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>TestCase.cpp(1969): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>TestCase.cpp(2010): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>TestCase.cpp(2091): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>TestCase.cpp(2179): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>TestCase.cpp(2534): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\VS2010\install\VC\include\stdio.h(371) : 参见“sprintf”的声明
+         Generating Code...
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         f:\VS2010\install\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\研究生项目\无线传感网络项目组\超图建立与划分代码\Architecture\x64\Debug\Architecture.exe" /INCREMENTAL /NOLOGO /LIBPATH:F:\matlab2010a\install\extern\lib\win64\microsoft /LIBPATH:F:\matlab2010a\install\extern\lib\win32\microsoft libeng.lib libmat.lib libmex.lib libmx.lib libhgraphSimulation3.lib mclmcrrt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\Architecture.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\研究生项目\无线传感网络项目组\超图建立与划分代码\Architecture\x64\Debug\Architecture.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\研究生项目\无线传感网络项目组\超图建立与划分代码\Architecture\x64\Debug\Architecture.lib" /MACHINE:X64 x64\Debug\Architecture.exe.embed.manifest.res
+         x64\Debug\Architecture.obj
+         x64\Debug\CHypergraph.obj
+         x64\Debug\CInput.obj
+         x64\Debug\CLock.obj
+         x64\Debug\CLog.obj
+         x64\Debug\CMgrJob.obj
+         x64\Debug\CThread.obj
+         x64\Debug\HeapSort.obj
+         x64\Debug\main.obj
+         x64\Debug\Multilevel.obj
+         x64\Debug\ReadCpp.obj
+         x64\Debug\ReadH.obj
+         x64\Debug\TestCase.obj
+         x64\Debug\WSNnode.obj
+         Architecture.vcxproj -> D:\研究生项目\无线传感网络项目组\超图建立与划分代码\Architecture\x64\Debug\Architecture.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\Architecture.exe.embed.manifest" /manifest x64\Debug\Architecture.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         Architecture.vcxproj -> D:\研究生项目\无线传感网络项目组\超图建立与划分代码\Architecture\x64\Debug\Architecture.exe
+       FinalizeBuildStatus:
+         正在删除文件“x64\Debug\Architecture.unsuccessfulbuild”。
+         正在对“x64\Debug\Architecture.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\研究生项目\无线传感网络项目组\超图建立与划分代码\Architecture\Architecture\Architecture.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.13

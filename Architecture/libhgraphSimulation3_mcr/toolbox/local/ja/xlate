@@ -1,0 +1,48 @@
+<[reporterrorlogs](reporterrorlogs)Help
+>(reporterrorlogs)ヘルプ
+<[reporterrorlogs](inputdlgerrorlog)Cancel
+>(inputdlgerrorlog)キャンセル
+
+%% local/StudentActivationStatus.m
+<(StudentActivationStatus)This function is only available in Student Version.
+>(StudentActivationStatus)この関数は Student Version でのみ利用できます。
+
+%% local/finishdlg.m
+<(finishdlg)Exit Dialog
+>(finishdlg)ダイアログの終了
+<(finishdlg)Exiting MATLAB
+>(finishdlg)MATLAB を終了しています
+<(finishdlg)Ready to quit?
+>(finishdlg)終了する準備ができていますか？
+
+%% local/finishsav.m
+<(finishsav)Saving workspace data
+>(finishsav)ワークスペースのデータを保存しています。
+
+%% local/matlabrc.m
+<(matlabrc)  For product information, visit www.mathworks.com.
+>(matlabrc)  製品情報については、www.mathworks.co.jp を参照してください。
+<(matlabrc)  To get started, type one of these: helpwin, helpdesk, or demo.
+>(matlabrc)  はじめての方は、"helpwin"、"helpdesk"、または "demo" と入力してください。
+<(matlabrc)Failed to add default profiler filters.
+>(matlabrc)既定のプロファイラーのフィルターを追加できません。
+<(matlabrc)MATLAB did not appear to successfully set the search path. To avoid this\nwarning the next time you start MATLAB, use\nhttp://www.mathworks.com/access/helpdesk/help/techdoc/ref/pathdef.shtml\nto help troubleshoot the "pathdef.m" file. To recover for this session\nof MATLAB, type "restoredefaultpath;matlabrc".
+>(matlabrc)MATLAB はサーチ パスを正常に設定することができませんでした。次回、MATLAB を\n再開するときにこの警告が表示されないようにするには、\nhttp://www.mathworks.co.jp/access/helpdesk/help/techdoc/ref/pathdef.shtml\n にアクセスして "pathdef.m" ファイルのトラブルシューティングに関する情報を検索してください。この MATLAB セッションを復元\nするには、"restoredefaultpath;matlabrc" と入力してください。
+
+%% local/restoredefaultpath.m
+<(restoredefaultpath)System error: %s\nCommand executed: %s
+>(restoredefaultpath)システム エラー: %s\n実行されたコマンド: %s
+<(restoredefaultpath)Unable to find Perl executable.
+>(restoredefaultpath)実行可能な Perl が見つかりません。
+
+%% local/userpath.m
+<(userpath)Invalid directory or directory does not exist
+>(userpath)無効なディレクトリか、ディレクトリが存在しません
+<(userpath)Userpath must be an absolute path and must exist on disk.
+>(userpath)ユーザー パスは絶対パスで、ディスク上に存在しなければなりません。
+
+%% local/startpage.m
+<(startpage)The start page feature is not available with the -nodesktop option.
+>(startpage)開始ページの機能は -nodesktop オプションでは使用できません。
+<(startpage)The start page feature is not enabled.
+>(startpage)開始ページの機能が有効になっていません。

@@ -1,0 +1,6 @@
+testcase name : ..//testcases//hgr
+read path time : 15ms
+readfile time : 0ms
+parsing time : 0ms
+modeling and cuting time : 6541375ms
+writing time : 79ms

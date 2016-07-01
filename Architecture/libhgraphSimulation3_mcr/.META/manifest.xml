@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<manifest default-config="__xsd_binder_auto_id_1" major="7" minor="14" signature="" uuid="libhgraphSim_3B12040DAD0679F95118846C40596E6F">
+
+  <directory id="DIR_libhgraphSim_" path="libhgraphSim/"/>
+
+  <directory id="DIR_work_" path="work/"/>
+
+  <directory id="DIR__TOOLBOXDEPLOYDIR_" path="$TOOLBOXDEPLOYDIR/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_general_" path="$TOOLBOXMATLABDIR/general/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_ops_" path="$TOOLBOXMATLABDIR/ops/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_lang_" path="$TOOLBOXMATLABDIR/lang/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_elmat_" path="$TOOLBOXMATLABDIR/elmat/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_randfun_" path="$TOOLBOXMATLABDIR/randfun/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_elfun_" path="$TOOLBOXMATLABDIR/elfun/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_specfun_" path="$TOOLBOXMATLABDIR/specfun/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_matfun_" path="$TOOLBOXMATLABDIR/matfun/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_datafun_" path="$TOOLBOXMATLABDIR/datafun/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_polyfun_" path="$TOOLBOXMATLABDIR/polyfun/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_funfun_" path="$TOOLBOXMATLABDIR/funfun/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_sparfun_" path="$TOOLBOXMATLABDIR/sparfun/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_scribe_" path="$TOOLBOXMATLABDIR/scribe/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_graph2d_" path="$TOOLBOXMATLABDIR/graph2d/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_graph3d_" path="$TOOLBOXMATLABDIR/graph3d/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_specgraph_" path="$TOOLBOXMATLABDIR/specgraph/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_graphics_" path="$TOOLBOXMATLABDIR/graphics/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_uitools_" path="$TOOLBOXMATLABDIR/uitools/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_strfun_" path="$TOOLBOXMATLABDIR/strfun/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_imagesci_" path="$TOOLBOXMATLABDIR/imagesci/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_iofun_" path="$TOOLBOXMATLABDIR/iofun/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_audiovideo_" path="$TOOLBOXMATLABDIR/audiovideo/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_timefun_" path="$TOOLBOXMATLABDIR/timefun/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_datatypes_" path="$TOOLBOXMATLABDIR/datatypes/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_verctrl_" path="$TOOLBOXMATLABDIR/verctrl/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_codetools_" path="$TOOLBOXMATLABDIR/codetools/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_helptools_" path="$TOOLBOXMATLABDIR/helptools/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_winfun_" path="$TOOLBOXMATLABDIR/winfun/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_winfun_NET_" path="$TOOLBOXMATLABDIR/winfun/NET/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_demos_" path="$TOOLBOXMATLABDIR/demos/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_timeseries_" path="$TOOLBOXMATLABDIR/timeseries/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_hds_" path="$TOOLBOXMATLABDIR/hds/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_guide_" path="$TOOLBOXMATLABDIR/guide/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_plottools_" path="$TOOLBOXMATLABDIR/plottools/"/>
+
+  <directory id="DIR_toolbox_local_" path="toolbox/local/"/>
+
+  <directory id="DIR__TOOLBOXMATLABDIR_datamanager_" path="$TOOLBOXMATLABDIR/datamanager/"/>
+
+  <directory id="DIR_toolbox_compiler_" path="toolbox/compiler/"/>
+
+  <directory id="DIR_toolbox_shared_system_" path="toolbox/shared/system/"/>
+
+  <directory id="DIR_toolbox_shared_spcuilib_" path="toolbox/shared/spcuilib/"/>
+
+  <directory id="DIR_toolbox_shared_siglib_" path="toolbox/shared/siglib/"/>
+
+  <directory id="DIR__matlab" path=".matlab"/>
+
+  <function id="FUNCTION_hgraphSimulation3">
+    <name>hgraphSimulation3</name>
+    <inputs>
+      <param name="x"/>
+    </inputs>
+    <outputs>
+      <param name="y"/>
+    </outputs>
+  </function>
+
+  <configuration id="__xsd_binder_auto_id_1" name="" require="">
+    <session-key>390EEB4B990C4295C3F808E61F4AB91F214AEF5D25DC6293BB4CD40DA574A5BCDD8FB403D66AC1BFBC20521D028CB3F4569088CB1C4741CBE7141C0461D58CF923762238FF42A9F19F9FC8090CE370C937F7105F143672E76E2C66312A107E47585EF8BED1640B4D8763D4344DA021D2C4703CDF6684E396832581E347E09480</session-key>
+    <public-key>30819D300D06092A864886F70D010101050003818B0030818702818100C49CAC34ED13A520658F6F8E0138C4315B4315277ED3F7DAE53099DB08EE589F804D4B981326A52CCE4382E9F2B4D085EB950C7AB12EDE2D41297820E6377A5FEB5689D4E6032F60C43074A04C26AB72F54B51BB460578785B199014314A65F090B61FC20169453B58FC8BA43E6776EB7ECD3178B56AB0FA06DD64967CB149E5020111</public-key>
+    <matlab-path>
+      <path-item ref="DIR_libhgraphSim_"/>
+      <path-item ref="DIR_work_"/>
+      <path-item ref="DIR__TOOLBOXDEPLOYDIR_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_general_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_ops_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_lang_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_elmat_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_randfun_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_elfun_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_specfun_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_matfun_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_datafun_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_polyfun_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_funfun_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_sparfun_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_scribe_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_graph2d_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_graph3d_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_specgraph_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_graphics_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_uitools_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_strfun_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_imagesci_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_iofun_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_audiovideo_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_timefun_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_datatypes_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_verctrl_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_codetools_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_helptools_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_winfun_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_winfun_NET_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_demos_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_timeseries_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_hds_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_guide_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_plottools_"/>
+      <path-item ref="DIR_toolbox_local_"/>
+      <path-item ref="DIR__TOOLBOXMATLABDIR_datamanager_"/>
+      <path-item ref="DIR_toolbox_compiler_"/>
+      <path-item ref="DIR_toolbox_shared_system_"/>
+      <path-item ref="DIR_toolbox_shared_spcuilib_"/>
+      <path-item ref="DIR_toolbox_shared_siglib_"/>
+    </matlab-path>
+    <java-class-path/>
+    <library-path/>
+    <application-options/>
+    <runtime-options/>
+    <warning-state>
+      <option>off:MATLAB:dispatcher:nameConflict</option>
+    </warning-state>
+    <prefdir ref="DIR__matlab"/>
+    <main-function ref="FUNCTION_hgraphSimulation3"/>
+    <public-functions>
+      <function ref="FUNCTION_hgraphSimulation3"/>
+    </public-functions>
+  </configuration>
+
+</manifest>

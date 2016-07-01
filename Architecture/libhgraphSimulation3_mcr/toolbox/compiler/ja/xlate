@@ -1,0 +1,176 @@
+% Copyright 2003-2008 The MathWorks, Inc.
+% $Revision: 1.1.6.16 $ $Date: 2009/11/27 07:05:41 $
+
+%% toolbox\compiler/builder2prj.m
+<(builder2prj)%s: File does not exist.
+>(builder2prj)%s: ファイルが存在しません。
+<(builder2prj)%s: Invalid project file
+>(builder2prj)%s: 無効なプロジェクトファイル
+<(builder2prj)This function will be deprecated in a future release.
+>(builder2prj)この機能は、将来のリリースでは廃止される予定です。
+
+%% toolbox\compiler/cmptool.m
+<(cmptool)Could not create a new project
+>(cmptool)新規プロジェクトを作成できません
+<(cmptool)Invalid option passed.
+>(cmptool)無効なオプションが渡されました。
+<(cmptool)Specified project file does not exist or is invalid.
+>(cmptool)指定したプロジェクトファイルは存在しないか無効です。
+<(cmptool)Use OPENCBL, OPENMXL, or OPENNBL to open a MATLAB Builder for COM or \nMATLAB Builder for Excel or MATLAB Builder for dot NET project respectively.
+>(cmptool)MATLAB Builder for COM, MATLAB Builder for Excel または MATLAB Builder for dot NET を開くには、\nそれぞれ OPENCBL, OPENMXL, または OPENNBL を使用してください。
+
+%% toolbox\compiler/compinfo.m
+<(compinfo)Could not locate MATLAB Builder NE or MATLAB Builder EX documentation. Check if you DOCROOT is set correctly.
+>(compinfo)MATLAB Builder NE または MATLAB Builder EX ドキュメントが見つかりません。DOCROOT が正しく設定されているか確認してください。
+<(compinfo)No information found for component: %s 
+>(compinfo)コンポーネント %s に対する情報が見つかりません 
+
+%% toolbox\compiler/componentinfo.m
+<(componentinfo)MEX file not present
+>(componentinfo)MEX ファイルが存在しません
+
+%% toolbox\compiler/deploytool.m
+<(deploytool)%s' does not exist or is a directory.
+>(deploytool)%s' は、存在しないかディレクトリです。
+<(deploytool)Error opening %s.\nIf the project was created using COMTOOL, MXLTOOL, or DOTNETTOOL, \nuse BUILDER2PRJ to convert this project into a project usable with DEPLOYTOOL.
+>(deploytool)%s を開くときのエラー\nプロジェクトが COMTOOL, MXLTOOL または DOTNETTOOL を使って作成された場合、\nこのプロジェクトを DEPLOYTOOL で使用可能なプロジェクトに変換するために BUILDER2PRJ を使用してください。
+<(deploytool)Error opening the deployment tool. Please restart MATLAB. \nIf the problem persists, please contact technical support \nby filling out the online support request form at \n<a href="http://www.mathworks.com/support/contact_us/index.html">http://www.mathworks.com/support/contact_us/index.html</a>. \nAttach the following information in the request\n\n============ BEGIN HERE ============\n %s\n============= END HERE =============\n
+>(deploytool)Deployment Tool を開くときのエラー。MATLAB を再起動してください \n問題が解決しない場合は、下記のオンラインサポートのリクエストフォームを記入し、\nテクニカルサポートに連絡してください。\n<a href="http://www.mathworks.com/support/contact_us/index.html">http://www.mathworks.com/support/contact_us/index.html</a> \nリクエストに以下の情報を添付してください\n\n============ BEGIN HERE ============\n %s\n============= END HERE =============\n
+<(deploytool)Invalid input passed to deploytool
+>(deploytool)無効な入力が deploytool に渡されました
+<(deploytool)Invalid option '%s'
+>(deploytool)無効なオプション '%s'
+<(deploytool)The following error occurred when opening '%s'.\n
+>(deploytool)'%s' を開くときに以下のエラーが発生しました。\n
+
+%% toolbox\compiler/figToImStream.m
+<(figToImStream)Invalid figure
+>(figToImStream)無効な Figure
+
+%% toolbox\compiler/mbuild_helper.m
+<(mbuild_helper)Cannot open file "%s" for writing: %s.
+>(mbuild_helper)書き込み用にファイル "%s" を開けません: %s.
+<(mbuild_helper)Cannot write to file "%s": %s.
+>(mbuild_helper)ファイル "%s" に書き込めません: %s.
+
+%% toolbox\compiler/mcrinstaller.m
+<(mcrinstaller)For more information, %s.
+>(mcrinstaller)詳細は、%s
+<(mcrinstaller)Full list of available MCR installers:
+>(mcrinstaller)利用可能な MCR インストーラのすべてのリスト:
+<(mcrinstaller)MCR installers for other platforms are located in:\n    %s\n  <ARCH> is the value of COMPUTER('arch') on the target machine.\n
+>(mcrinstaller)他のプラットフォームに対する MCR インストーラは以下の場所にあります。\n    %s\n  <ARCH> はターゲットマシン上の COMPUTER('arch') の値です。\n
+<(mcrinstaller)Or see the %s at The MathWorks' web site. (Page may load slowly.)
+>(mcrinstaller)あるいは、The MathWorks 社の Web サイトで %s を参照してください。(ページはゆっくり読み込まれる可能性があります)
+<(mcrinstaller)The %s MCR Installer, version %d.%d, is:\n    %s\n
+>(mcrinstaller)%s MCR インストーラのバージョン %d.%d:\n    %s\n
+
+%% toolbox\compiler/mcrversion.m
+<(mcrversion)MCR version file \n  '%s'\n not found.
+>(mcrversion)MCR バージョンファイル \n  '%s'\n が見つかりません。
+
+%% toolbox\compiler/package_prj.m
+<(package_prj)Creating self-extracting executable...
+>(package_prj)自己解凍形式の実行可能ファイルを作成中...
+<(package_prj)Done creating zip archive
+>(package_prj)zip アーカイブの作成が完了しました
+<(package_prj)Failed to create zip archive with the following error. Resolve this error and restart packaging process.\n\n%s
+>(package_prj)以下のエラーで zip アーカイブの作成に失敗しました。このエラーを解決し、パッケージ化プロセスを再開してください。\n\n%s
+<(package_prj)Packaging component for distribution
+>(package_prj)配布用のコンポーネントをパッキング中
+<(package_prj)Packaging component for distribution...
+>(package_prj)配布用のコンポーネントをパッキング中...
+<(package_prj)Removing work files...
+>(package_prj)作業ファイルを削除中...
+<(package_prj)The following error occurred when creating the self extracting zip archive. Resolve this error and restart the packaging process.\n\n%s
+>(package_prj)以下のエラーが自己解凍形式の zip アーカイブを作成時に発生しました。このエラーを解決し、パッケージ化プロセスを再開してください。\n\n%s
+
+%% toolbox\compiler/renderwebfigure.m
+<(renderwebfigure)Invalid handle passed to renderwebfigure; calling openwebfigure
+>(renderwebfigure)無効なハンドルが openwebfigure を呼び出す renderwebfigure に渡されました
+<(renderwebfigure)Position of figure child is: [%d,%d,%d,%d]
+>(renderwebfigure)Figure の子の位置: [%d,%d,%d,%d]
+<(renderwebfigure)RENDERWEBFIGURE must be called on a figure with at least one axes
+>(renderwebfigure)RENDERWEBFIGURE は、少なくとも 1 つの Axes を持つ Figure 上で呼び出されなければなりません
+<(renderwebfigure)RENDERWEBFIGURE: clipRect is [%d,%d,%d,%d]
+>(renderwebfigure)RENDERWEBFIGURE: clipRect は [%d,%d,%d,%d] です
+<(renderwebfigure)RENDERWEBFIGURE: set figure position to [0,200,%d,%d]
+>(renderwebfigure)RENDERWEBFIGURE: Figure の位置を [0,200,%d,%d] に設定します
+
+%% toolbox\compiler/savewebfigure.m
+<(savewebfigure)SAVEWEBFIGURE must be called on a figure with at least one axes
+>(savewebfigure)SAVEWEBFIGURE は、少なくとも 1 つの Axes を持つ Figure 上で呼び出されなければなりません
+<(savewebfigure)Unknown color string.
+>(savewebfigure)色を示す文字列が不明です。
+
+%% toolbox\compiler/deploy/clc.m
+<(clc)The CLC function will do nothing in compiled applications.
+>(clc)CLC 関数はコンパイルしたアプリケーション内では何もしません。
+
+%% toolbox\compiler/deploy/deployprint.m
+<(deployprint) ignored. Using BMP instead.
+>(deployprint) 無視されました。代わりに BMP を使用してください。
+<(deployprint) units not supported. Use centimeters or points.
+>(deployprint) の単位はサポートされません。centimeters または points を使用してください。
+<(deployprint)Argument #%d is must be a string or a number.
+>(deployprint)引数 #%d は、文字列、または数値でなければなりません。
+<(deployprint)Failed to send image (in '%s') to the printer. System error:\n  %s
+>(deployprint)プリンタへのイメージ ('%s') の送信に失敗しました。システムエラー:\n  %s
+<(deployprint)Internal error: Invalid figure: %s.
+>(deployprint)内部エラー: 無効な Figure: %s
+<(deployprint)Internal error: PaperUnits has no value.
+>(deployprint)内部エラー: PaperUnits は値がありません。
+<(deployprint)Negative number (%d)
+>(deployprint)負の数 (%d)
+<(deployprint)Non-numeric value of type '%s'
+>(deployprint)タイプ '%s' の数値でない値
+<(deployprint)Print Setup from a MATLAB Figure Window is unsupported in MATLAB Compiler generated applications. Select File | Print to display the print dialog box, which provides equivalent functionality.
+>(deployprint)MATLAB Figure ウィンドウからの印刷設定は、MATLAB Compiler が生成したアプリケーションでサポートされていません。等価な機能を与える印刷ダイアログボックスを表示するにはファイル - 印刷を選択してください。
+<(deployprint)The argument %d looks like a figure number, but the figure number has already been set to %d.
+>(deployprint)引数 %d は Figure 番号のようですが、Figure 番号は既に %d に設定されています。
+<(deployprint)The argument '%s' looks like a file name, but the output file name has already been set to '%s'
+>(deployprint)引数 '%s' はファイル名のようですが、出力のファイル名は既に '%s' に設定されています。
+
+%% toolbox\compiler/deploy/help.m
+<(help)The HELP function cannot be used in compiled applications.
+>(help)HELP 関数はコンパイルしたアプリケーションで使用できません。
+
+%% toolbox\compiler/deploy/helpwin.m
+<(helpwin)The HELPWIN function cannot be used in compiled applications.
+>(helpwin)HELPWIN 関数はコンパイルしたアプリケーションで使用できません。
+
+%% toolbox\compiler/deploy/home.m
+<(home)The HOME function will do nothing in compiled applications.
+>(home)HOME 関数はコンパイルしたアプリケーション内では何もしません。
+
+%% toolbox\compiler/deploy/input.m
+<(input)The second argument to input (if supplied) must be 's'.
+>(input)入力 (与えられた場合) への 2 番目の引数は 's' でなければなりません。
+
+%% toolbox\compiler/deploy/keyboard.m
+<(keyboard)The KEYBOARD function cannot be used in compiled applications.
+>(keyboard)KEYBOARD 関数はコンパイルしたアプリケーションで使用できません。
+
+%% toolbox\compiler/deploy/printdlg.m
+<(printdlg)Could not find toolbox/compiler/deploy on the path.
+>(printdlg)パス上に toolbox/compiler/deploy が見つかりません。
+<(printdlg)Could not open print dialog box.
+>(printdlg)印刷ダイアログボックスを開くことができません。
+<(printdlg)More than one toolbox/compiler/deploy on the path.
+>(printdlg)パス上に複数の toolbox/compiler/deploy があります。
+<(printdlg)PRINTDLG requires exactly one argument.
+>(printdlg)PRINTDLG は、厳密に 1 つの引数が必要です。
+
+%% toolbox\compiler/deploy/propedit.m
+<(propedit)The PROPEDIT function cannot be used in compiled applications.
+>(propedit)PROPEDIT 関数はコンパイルしたアプリケーションで使用できません。
+
+%% toolbox\compiler/deploy/savepath.m
+<(savepath)The SAVEPATH function cannot be used in compiled applications.
+>(savepath)SAVEPATH 関数はコンパイルしたアプリケーションで使用できません。
+
+<(package_prj)Done.
+>(package_prj)完了。
+<(compilerDos)Using pushd/popd, disregard cmd.exe warnings about UNC directory pathnames.
+>(compilerDos)pushd/popd を使用すると、UNC ディレクトリのパス名に関する cmd.exe の警告を無視します。
+
